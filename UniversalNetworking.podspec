@@ -3,7 +3,11 @@ Pod::Spec.new do |spec|
 spec.name = 'UniversalNetworking'
 spec.version = '1.0.0'
 spec.author = 'Iryna Zubrytska'
-spec.license = 'MIT'
+spec.license = { :type => 'MIT', :text => <<-LICENSE
+                   Copyright (c) 2022, Iryna Zubrytska
+                   All rights reserved.
+                 LICENSE
+               }
 spec.homepage = 'https://github.com/irazubrytska/UniversalNetworking'
 spec.source = { :git => 'https://github.com/irazubrytska/UniversalNetworking.git', :tag => '1.0.0' }
 spec.summary = 'This is framework for networking.'

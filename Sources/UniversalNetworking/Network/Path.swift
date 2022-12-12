@@ -1,6 +1,6 @@
 //
 //  Path.swift
-//  NetworkFramework
+//  UniversalNetworking
 //
 
 /// Represents API endpoint path.

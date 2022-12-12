@@ -1,6 +1,6 @@
 //
 //  CodableResponse.swift
-//  NetworkFramework
+//  UniversalNetworking
 //
 
 import Foundation

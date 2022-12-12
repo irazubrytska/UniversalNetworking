@@ -1,6 +1,6 @@
 //
 //  Endpoint.swift
-//  NetworkFramework
+//  UniversalNetworking
 //
 
 /// Represents API endpoint.

@@ -1,10 +1,10 @@
 //
-//  Method.swift
-//  NetworkFramework
+//  RequestMethod.swift
+//  UniversalNetworking
 //
 
 /// Enum that represents an HTTP method.
-public enum Method: String {
+public enum RequestMethod: String {
 
     /// Get method.
     case get = "GET"

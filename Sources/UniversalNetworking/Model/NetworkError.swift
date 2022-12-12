@@ -1,6 +1,6 @@
 //
 //  NetworkError.swift
-//  NetworkFramework
+//  UniversalNetworking
 //
 
 /// Represents custom network error.

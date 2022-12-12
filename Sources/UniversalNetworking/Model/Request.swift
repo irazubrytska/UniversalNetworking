@@ -1,6 +1,6 @@
 //
 //  Request.swift
-//  NetworkFramework
+//  UniversalNetworking
 //
 
 import Foundation
@@ -10,8 +10,8 @@ import Foundation
 /// Types that conform to the `Request` protocol can provide their own representation
 /// of network request.
 public protocol Request {
-    /// Request HTTP method of type `Method`.
-    var method: Method { get }
+    /// Request HTTP method of type `RequestMethod`.
+    var method: RequestMethod { get }
     /// Request endpoint that conforms to `Endpoint` protocol.
     var endpoint: Endpoint { get }
     /// Request headers.
